@@ -90,7 +90,7 @@
     // Fundido cruzado: a mitad del vuelo, debajo ya está el anillo del móvil y el vídeo se desvanece
     // (así el rótulo del vídeo no llega a entrar en la pantalla).
     // El difuminado del borde se cierra sobre el logo (el rótulo se va) sin dejar un disco marcado.
-    video.animate([{ "--r": "100%" }, { "--r": "66%", offset: .4 }, { "--r": "66%" }],
+    video.animate([{ "--r": "130%" }, { "--r": "55%", offset: .4 }, { "--r": "55%" }],
       { duration: 1050, easing: "cubic-bezier(.4,0,.2,1)", fill: "forwards" });
     video.animate([{ opacity: 1 }, { opacity: 1, offset: .88 }, { opacity: 0 }], { duration: 1050, easing: "linear", fill: "forwards" });
     setTimeout(() => dibujarAnillo(false), 920);
