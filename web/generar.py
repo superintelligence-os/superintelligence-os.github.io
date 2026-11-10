@@ -10,10 +10,10 @@ IAS = [("claude", "Claude", "#D97757", "#C6613F"), ("chatgpt", "ChatGPT", "#10A3
 T = {
  "es": dict(
   lang="es", archivo="index.html", otro="en.html", otro_nombre="English", priv="privacidad.html",
-  titulo="SIOS · Tu móvil hace lo que le pides", desc="SIOS (SuperIntelligenceOS): Android con la IA que tú elijas como agente del sistema. Privado y de código abierto.",
+  titulo="SIOS · Un agente en tu bolsillo", desc="SIOS (SuperIntelligenceOS): un agente en tu bolsillo. Android con la IA que tú elijas haciendo las cosas por ti. Privado y de código abierto.",
   nav_funciones="Qué trae", nav_priv="Privacidad", nav_instalar="Instalar",
-  saltar="Saltar", titular=["Tu móvil", "hace lo que", "le pides."],
-  entrada="SIOS es Android con una IA dentro que maneja tus apps, tus avisos y tus cosas. La que tú elijas, y sin que lo tuyo salga del móvil.",
+  saltar="Saltar", titular=["Un agente", "en tu bolsillo."],
+  entrada="SIOS es Android con un agente dentro: le pides algo y lo hace él. Abre tus apps, toca, escribe y termina el encargo. Con la IA que tú elijas, y sin que lo tuyo salga del móvil.",
   elige="Elige su IA", local="En el móvil", pregunta="Pregúntale a {}", ninguna="SIOS",
   cta1="Ver el código en GitHub", cta2="Cómo se instala",
   pedido="Reserva mesa para dos el viernes en un italiano cerca",
@@ -46,10 +46,10 @@ T = {
   pie='Claude, ChatGPT, Gemini y el resto de nombres son marcas de sus dueños; SIOS no está afiliado a ellos.', contacto="Contacto"),
  "en": dict(
   lang="en", archivo="en.html", otro="index.html", otro_nombre="Español", priv="privacy.html",
-  titulo="SIOS · Your phone does what you ask", desc="SIOS (SuperIntelligenceOS): Android with the AI you choose as the system agent. Private and open source.",
+  titulo="SIOS · An agent in your pocket", desc="SIOS (SuperIntelligenceOS): an agent in your pocket. Android with the AI you choose doing things for you. Private and open source.",
   nav_funciones="Features", nav_priv="Privacy", nav_instalar="Install",
-  saltar="Skip", titular=["Your phone", "does what", "you ask."],
-  entrada="SIOS is Android with an AI inside that handles your apps, notifications and stuff. The one you choose, without your data leaving the phone.",
+  saltar="Skip", titular=["An agent", "in your pocket."],
+  entrada="SIOS is Android with an agent inside: ask for something and it does it. It opens your apps, taps, types and finishes the job. With the AI you choose, and without your data leaving the phone.",
   elige="Choose its AI", local="On the phone", pregunta="Ask {}", ninguna="SIOS",
   cta1="See the code on GitHub", cta2="How to install",
   pedido="Book a table for two on Friday at an Italian place nearby",
