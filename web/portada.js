@@ -31,6 +31,13 @@
     }
   }
 
+  // ---------- Descargar SIOS Desktop: la del sistema de quien visita ----------
+  // En Windows, el .exe; en un móvil no hay nada que bajar aún: lleva a cómo se instala.
+  const descargar = document.getElementById("descargar");
+  const ua = navigator.userAgent;
+  if (/Android|iPhone|iPad/i.test(ua)) descargar.href = "#instalar";
+  else if (/Windows/i.test(ua)) descargar.href = descargar.dataset.win;
+
   // ---------- La IA que eliges ----------
   const botones = [...document.querySelectorAll(".ias button")];
   botones.forEach((b) => b.addEventListener("click", () => {
